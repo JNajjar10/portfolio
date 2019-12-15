@@ -1,0 +1,23 @@
+.img {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+  }
+
+.divider {
+    position: relative;
+    width: 70px;
+    height: 10px;
+    color: gray;
+}
+.block {
+    float: left;
+}
+
+.outerblock {
+    float: left;
+    margin-left: 200px;
+}
