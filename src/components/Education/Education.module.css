@@ -4,7 +4,8 @@
     height: 50px;
     width: 50px;
     position: relative;
-    float: left;
+    right: 30px;
+    top: 15px;
   }
 
 .divider {
@@ -20,4 +21,88 @@
 .outerblock {
     float: left;
     margin-left: 200px;
+}
+
+.resume {
+    background-color: #ddd;
+    height: 1800px;
+    margin-top: -30px;
+    padding-top: 60px;
+  /*  //font-family: 'Karla';*/
+    font-size: 19px;
+    line-height: 34px;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+  }
+
+.resumeInner{
+    width: 70%;
+}
+
+.title {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  
+  .section {
+    text-align: left;
+    margin-left: 15%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #CEC8C8;
+    font-size: 11px;
+    text-transform: uppercase;
+  }  
+
+  .school {
+      text-align: left;
+      margin-left: 15.5%;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+  }
+
+  .schoolInlineLeft {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+  }
+
+  .schoolInlineRight {
+    margin-left: 38.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.list {
+    list-style: circle;
+    text-align: left;
+    margin-left: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.skill {
+    border: 1px solid #50a9d1;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
 }
